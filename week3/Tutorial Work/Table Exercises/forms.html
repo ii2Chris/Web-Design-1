@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Demo</title>
+  </head>
+  <body>
+    <h1>Form Demo</h1>
+
+    <form action="/tacos">
+      <button type="button">Test Button</button>
+      <p>
+        <label for="username">Please enter a Username:</label>
+        <input id="username" type="text" placeholder="username" />
+      </p>
+
+      <p>
+        <label for="password">Please enter a Passowrd:</label>
+        <input id="password" type="password" placeholder="password" />
+      </p>
+
+      <p>
+        <label for="color">Pick a random color:</label>
+        <input id="color" type="color" /> <br />
+      </p>
+
+      <p>
+        <label for="number"
+          >Pick a random number:
+          <input id="number" type="number" placeholder="#" />
+        </label>
+      </p>
+
+      <button>Submit!</button>
+    </form>
+    <hr />
+    <form action="https://www.google.com/search?q=">
+      <input type="text" name="q" />
+      <button>Search Google</button>
+    </form>
+    <hr />
+    <h2>More Forms!</h2>
+    <form action="/birds">
+      <input type="checkbox" name="agree_tos" id="agree" />
+      <label for="agree">Do you agree to??</label>
+      <button>Submit</button>
+
+      <p>
+        <label for="xs">XS</label>
+        <input type="radio" name="size" id="xs" value="xs" />
+        <label for="S">S</label>
+        <input type="radio" name="size" id="s" value="s" />
+        <label for="M">M</label>
+        <input type="radio" name="size" id="m" value="m" />
+      </p>
+    </form>
+  </body>
+</html>
