@@ -1,0 +1,16 @@
+nav {
+  font-family: "Roboto Mono", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  margin-left: calc(10% / 6);
+  padding: 20px 0;
+}
+
+img {
+  width: 30%;
+  margin: 10px;
+}

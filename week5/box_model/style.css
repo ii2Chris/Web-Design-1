@@ -1,0 +1,23 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: #484a47;
+  width: 100px;
+}
+
+#one {
+  background-color: #5c6d70;
+  border: 5px solid black;
+}
+
+#two {
+  background-color: #a37774;
+}
+
+#three {
+  background-color: #e88873;
+}
