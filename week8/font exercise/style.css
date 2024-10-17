@@ -1,0 +1,58 @@
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: #1f1b24;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 120px;
+  margin-bottom: 10px;
+  color: #bb86fc;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+  color: #d9baff;
+  text-align: left;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #add8e6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #347c94;
+  text-decoration: none;
+}
