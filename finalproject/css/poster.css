@@ -84,6 +84,7 @@ a.left-bottom {
   overflow: hidden;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 0;
 }
 
 /* Right-Side Styling */
@@ -95,14 +96,16 @@ a.right-top {
   overflow: hidden;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 33.33%;
 }
 
 .right-bottom {
   flex: 2;
   display: flex;
   gap: 4px;
-  margin-top: 1px;
   position: relative;
+  margin-top: 0;
+  height: 66.66%;
 }
 
 a.right-bottom-left {
@@ -153,4 +156,22 @@ a.right-bottom-right-bottom:hover {
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(255, 255, 255, 0.15);
   z-index: 10;
+}
+
+/* Messing around with JS */
+.header-content-left.active,
+.header-content-middle.active,
+.header-content-right.active {
+  background: #343a40;
+  transform: scale(1.1);
+}
+
+.tablet-layout {
+  width: 760px;
+  background: red; /* Temporary - to verify the class is applied */
+}
+
+.mobile-layout {
+  width: 400px;
+  background: blue; /* Temporary - to verify the class is applied */
 }
