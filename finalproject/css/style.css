@@ -8,11 +8,24 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background: #1f1b24;
   margin: 0;
-  padding: 0;
+  padding: 20px 0;
   overflow-x: hidden;
-  gap: 20px;
+}
+
+.header {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.poster-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
 }
